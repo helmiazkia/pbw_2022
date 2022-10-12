@@ -1,0 +1,22 @@
+body{
+    background: url("background.jpeg");
+    
+}
+.Akun-box{
+    width: 320px;
+    height: 500px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
