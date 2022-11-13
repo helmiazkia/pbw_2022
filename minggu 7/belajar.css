@@ -1,0 +1,93 @@
+header{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1457px;
+    height: 179px;
+    
+    background: #ffffff;
+    mix-blend-mode: soft-light;
+    border: 1px solid #000000;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+
+
+    
+
+}
+h2{
+    
+    width: 344.05px;
+height: 62.67px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+font-feature-settings: 'numr' on, 'cv05' on, 'kern' off;
+
+color: #f31414;
+
+mix-blend-mode: normal;
+transform: rotate(0.09deg);
+
+}
+nav{
+    position: absolute;
+    width: 916px;
+    height: 1070px;
+    left: 761px;
+    top: 525px;
+    
+    background: #E05454;
+    mix-blend-mode: darken;
+
+}
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FBEBEB;
+
+    
+}
+article{
+    position: absolute;
+width: 364px;
+height: 444px;
+left: 46px;
+top: 231px;
+
+background: #EB5858;
+box-shadow: 10px 4px 7px rgba(0, 0, 0, 0.5);
+border-radius: 50px;
+
+position: absolute;
+width: 275px;
+height: 387px;
+left: 101px;
+top: 291px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+section{
+    position: absolute;
+width: 741.34px;
+height: 439.02px;
+left: 477.77px;
+top: 288px;
+
+: url(th.jpg);
+border-radius: 114px;
+transform: rotate(0.23deg);
+}
