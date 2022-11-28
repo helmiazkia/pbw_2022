@@ -1,0 +1,50 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="latjs.css" />
+    <title>javascrip</title>
+    <script>
+        function hitu()
+        {
+            var myform = document.formhit;
+            var x = eval(myform.bil1.value);
+            var y = eval(myform.bil2.value);
+            var pil = myform.opr.value;
+
+            if(pil=="+"){
+                var z = x+y;
+            }else if(pil=="-"){
+                var z = x-y;
+            }else if(pil=="*"){
+                var z = x*y;
+            }else if(pil=="/"){
+                var z = x/y;
+            }
+            
+            myform.hasil.value = z;
+        }
+    </script>
+</head>
+<body>
+    <h1>javascript</h1>
+   <form name="formhit" action="#">
+       bil 1<input type="number" name="bil1"><br>
+       opr
+       <select name="opr">
+           <option>+</option>
+           <option>-</option>
+           <option>*</option>
+           <option>/</option>
+       </select><br>
+       bil 2 <input type="number" name="bil2"><br>
+       <input type="button" value="=" onclick="hitu()">
+       <input type="number" name="hasil" disabled>
+   </form>
+    
+</body>
+</html>
