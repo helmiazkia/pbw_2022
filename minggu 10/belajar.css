@@ -1,0 +1,25 @@
+header{
+    position: fixed;
+    height: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(-180deg,#025eaa,rgba(51, 214, 255, 0.747));
+    mix-blend-mode: soft-light;
+    
+}
+header h1 a{
+    font-style:normal;
+    text-decoration: none;
+    color: aliceblue;
+    position: absolute;
+    width: 344.05px;
+    height: 62.67px;
+    left: 51.04px;
+    top: 50px;
+}
+
+    
+}
+
+
